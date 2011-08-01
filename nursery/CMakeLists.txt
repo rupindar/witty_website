@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+
+PROJECT(nursery)
+
+SET (WT_CONNECTOR "wthttp" CACHE STRING "Connector used wthttp")
+
+ADD_SUBDIRECTORY(source)
